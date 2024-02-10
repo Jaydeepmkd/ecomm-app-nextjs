@@ -90,7 +90,6 @@ export default function ProductCategorySidebar() {
                         >
                       </Link>
                     </li>
-
                     <li className={styles.sidebarSubmenuCategory}>
                       <Link href="#" className={styles.sidebarSubmenuTitle}>
                         <p className={styles.sidebarproductName}>shorts & jeans</p>
