@@ -3,6 +3,7 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import Script from 'next/script'
 import { useEffect } from 'react';
 import Head from 'next/head';
 import { Helmet } from 'react-helmet';
@@ -67,33 +68,43 @@ export default function Navbar() {
 
 
     // accordion variables
-    const accordionBtn = document.querySelectorAll('[data-accordion-btn]');
-    const accordion = document.querySelectorAll('[data-accordion]');
+    // const accordionBtn = document.querySelectorAll('[data-accordion-btn]');
+    // const accordion = document.querySelectorAll('[data-accordion]');
 
-    for (let i = 0; i < accordionBtn.length; i++) {
+    // for (let i = 0; i < accordionBtn.length; i++) {
 
-      accordionBtn[i].addEventListener('click', function () {
+    //   accordionBtn[i].addEventListener('click', function () {
 
-        const clickedBtn = this.nextElementSibling.classList.contains('active');
+    //     const clickedBtn = this.nextElementSibling.classList.contains('active');
+        // if (clickedBtn) {
+        //   // break;
+        //   console.log("Button clickedddd!"+clickedBtn);
+        // }
 
-        for (let i = 0; i < accordion.length; i++) {
+        // else if (accordion[i].classList.contains('active')) {
+        //   console.log("else Button clickedddd!"+clickedBtn);
+        //   accordion[i].classList.remove('active');
+        //   accordionBtn[i].classList.remove('active');
 
-          if (clickedBtn) break;
+        // }
+        // for (let i = 0; i < accordion.length; i++) {
 
-          if (accordion[i].classList.contains('active')) {
+        //   if (clickedBtn) break;
 
-            accordion[i].classList.remove('active');
-            accordionBtn[i].classList.remove('active');
+        //   else if (accordion[i].classList.contains('active')) {
 
-          }
+        //     accordion[i].classList.remove('active');
+        //     accordionBtn[i].classList.remove('active');
 
-        }
+        //   }
 
-        this.nextElementSibling.classList.toggle('active');
-        this.classList.toggle('active');
+        // }
 
-      });
-    }
+      //   this.nextElementSibling.classList.toggle('active');
+      //   this.classList.toggle('active');
+
+      // });
+    // }
   },[]);
 
   return (
@@ -101,10 +112,10 @@ export default function Navbar() {
     <Helmet>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" ></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </Helmet>
+    <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" ></Script>
+    <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
+    
 
     <header>
 
@@ -175,7 +186,7 @@ export default function Navbar() {
         <div className="container">
 
           <Link href="#" className="header-logo">
-            {/* <Image src="/images/logo/logo.svg" alt="Wolf's logo" width="120" height="36"/>/ */}
+            {/* <Image src="/images/logo/logo.svg" alt="Wolf&apos;s logo" width="120" height="36"/>/ */}
             <h1 style={{ fontSize: '30px' }}> <b>Wolf</b></h1>
           </Link>
 
@@ -264,7 +275,7 @@ export default function Navbar() {
                 <ul className="dropdown-panel-list">
 
                   <li className="menu-title">
-                    <Link href="#">Men's</Link>
+                    <Link href="#">Men&apos;s</Link>
                   </li>
 
                   <li className="panel-list-item">
@@ -289,7 +300,7 @@ export default function Navbar() {
 
                   <li className="panel-list-item">
                     <Link href="#">
-                      <Image src="/images/mens-banner.jpg" alt="men's fashion" width="250" height="119"/>
+                      <Image src="/images/mens-banner.jpg" alt="men&apos;s fashion" width="250" height="119"/>
                     </Link>
                   </li>
 
@@ -298,7 +309,7 @@ export default function Navbar() {
                 <ul className="dropdown-panel-list">
 
                   <li className="menu-title">
-                    <Link href="#">Women's</Link>
+                    <Link href="#">Women&apos;s</Link>
                   </li>
 
                   <li className="panel-list-item">
@@ -323,7 +334,7 @@ export default function Navbar() {
 
                   <li className="panel-list-item">
                     <Link href="#">
-                      <Image src="/images/womens-banner.jpg" alt="women's fashion" width="250" height="119"/>
+                      <Image src="/images/womens-banner.jpg" alt="women&apos;s fashion" width="250" height="119"/>
                     </Link>
                   </li>
 
@@ -368,7 +379,7 @@ export default function Navbar() {
             </li>
 
             <li className="menu-category">
-              <Link href="#" className="menu-title">Men's</Link>
+              <Link href="#" className="menu-title">Men&apos;s</Link>
 
               <ul className="dropdown-list">
 
@@ -392,7 +403,7 @@ export default function Navbar() {
             </li>
 
             <li className="menu-category">
-              <Link href="#" className="menu-title">Women's</Link>
+              <Link href="#" className="menu-title">Women&apos;s</Link>
 
               <ul className="dropdown-list">
 
@@ -524,7 +535,7 @@ export default function Navbar() {
           <li className="menu-category">
 
             <button className="accordion-menu" data-accordion-btn>
-              <p className="menu-title">Men's</p>
+              <p className="menu-title">Men&apos;s</p>
 
               <div>
                 <ion-icon name="add-outline" className="add-icon"></ion-icon>
@@ -557,7 +568,7 @@ export default function Navbar() {
           <li className="menu-category">
 
             <button className="accordion-menu" data-accordion-btn>
-              <p className="menu-title">Women's</p>
+              <p className="menu-title">Women&apos;s</p>
 
               <div>
                 <ion-icon name="add-outline" className="add-icon"></ion-icon>

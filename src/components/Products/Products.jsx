@@ -34,7 +34,7 @@ export default function Products() {
                         <Image
                           src="/images/products/clothes-1.jpg"
                           alt="relaxed short full sleeve t-shirt"
-                          width="70" height="70"
+                          width={70} height={70}
                           className="showcase-img"
                         />
                       </Link>
@@ -61,7 +61,7 @@ export default function Products() {
                           src="/images/products/clothes-2.jpg"
                           alt="girls pink embro design top"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -87,7 +87,7 @@ export default function Products() {
                           src="/images/products/clothes-3.jpg"
                           alt="black floral wrap midi skirt"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -113,7 +113,7 @@ export default function Products() {
                           src="/images/products/shirt-1.jpg"
                           alt="pure garment dyed cotton shirt"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -141,7 +141,7 @@ export default function Products() {
                           src="/images/products/jacket-5.jpg"
                           alt="men yarn fleece full-zip jacket"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -167,7 +167,7 @@ export default function Products() {
                           src="/images/products/jacket-1.jpg"
                           alt="mens winter leathers jackets"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -193,7 +193,7 @@ export default function Products() {
                           src="/images/products/jacket-3.jpg"
                           alt="mens winter leathers jackets"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -219,7 +219,7 @@ export default function Products() {
                           src="/images/products/shorts-1.jpg"
                           alt="better basics french terry sweatshorts"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -253,7 +253,7 @@ export default function Products() {
                           src="/images/products/sports-1.jpg"
                           alt="running & trekking shoes - white"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -279,7 +279,7 @@ export default function Products() {
                           src="/images/products/sports-2.jpg"
                           alt="trekking & running shoes - black"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -305,7 +305,7 @@ export default function Products() {
                           src="/images/products/party-wear-1.jpg"
                           alt="womens party wear shoes"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -329,16 +329,16 @@ export default function Products() {
                       <Link href="#" className="showcase-img-box">
                         <Image
                           src="/images/products/sports-3.jpg"
-                          alt="sports claw women's shoes"
+                          alt="sports claw women&apos;s shoes"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
                       <div className="showcase-content">
                         <Link href="#">
                           <h4 className="showcase-title">
-                            Sports Claw Women's Shoes
+                            Sports Claw Women&apos;s Shoes
                           </h4>
                         </Link>
 
@@ -359,7 +359,7 @@ export default function Products() {
                           src="/images/products/sports-6.jpg"
                           alt="air tekking shoes - white"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -385,7 +385,7 @@ export default function Products() {
                           src="/images/products/shoe-3.jpg"
                           alt="Boot With Suede Detail"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -407,16 +407,16 @@ export default function Products() {
                       <Link href="#" className="showcase-img-box">
                         <Image
                           src="/images/products/shoe-1.jpg"
-                          alt="men's leather formal wear shoes"
+                          alt="men&apos;s leather formal wear shoes"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
                       <div className="showcase-content">
                         <Link href="#">
                           <h4 className="showcase-title">
-                            Men's Leather Formal Wear shoes
+                            Men&apos;s Leather Formal Wear shoes
                           </h4>
                         </Link>
 
@@ -433,16 +433,16 @@ export default function Products() {
                       <Link href="#" className="showcase-img-box">
                         <Image
                           src="/images/products/shoe-2.jpg"
-                          alt="casual men's brown shoes"
+                          alt="casual men&apos;s brown shoes"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
                       <div className="showcase-content">
                         <Link href="#">
                           <h4 className="showcase-title">
-                            Casual Men's Brown shoes
+                            Casual Men&apos;s Brown shoes
                           </h4>
                         </Link>
 
@@ -469,7 +469,7 @@ export default function Products() {
                           src="/images/products/watch-3.jpg"
                           alt="pocket watch leather pouch"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -495,7 +495,7 @@ export default function Products() {
                           src="/images/products/jewellery-3.jpg"
                           alt="silver deer heart necklace"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -521,7 +521,7 @@ export default function Products() {
                           src="/images/products/perfume.jpg"
                           alt="titan 100 ml womens perfume"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -545,16 +545,16 @@ export default function Products() {
                       <Link href="#" className="showcase-img-box">
                         <Image
                           src="/images/products/belt.jpg"
-                          alt="men's leather reversible belt"
+                          alt="men&apos;s leather reversible belt"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
                       <div className="showcase-content">
                         <Link href="#">
                           <h4 className="showcase-title">
-                            Men's Leather Reversible Belt
+                            Men&apos;s Leather Reversible Belt
                           </h4>
                         </Link>
 
@@ -575,7 +575,7 @@ export default function Products() {
                           src="/images/products/jewellery-2.jpg"
                           alt="platinum zircon classic ring"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -601,7 +601,7 @@ export default function Products() {
                           src="/images/products/watch-1.jpg"
                           alt="smart watche vital plus"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -627,7 +627,7 @@ export default function Products() {
                           src="/images/products/shampoo.jpg"
                           alt="shampoo conditioner packs"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -653,7 +653,7 @@ export default function Products() {
                           src="/images/products/jewellery-1.jpg"
                           alt="rose gold peacock earrings"
                           className="showcase-img"
-                          width="70" height="70"
+                          width={70} height={70}
                         />
                       </Link>
 
@@ -1088,13 +1088,13 @@ export default function Products() {
                   <div className="showcase-banner">
                     <Image
                       src="/images/products/shoe-2.jpg"
-                      alt="Casual Men's Brown shoes"
+                      alt="Casual Men&apos;s Brown shoes"
                       className="product-img default"
                       width="300" height="300"
                     />
                     <Image
                       src="/images/products/shoe-2_1.jpg"
-                      alt="Casual Men's Brown shoes"
+                      alt="Casual Men&apos;s Brown shoes"
                       className="product-img hover"
                       width="300" height="300"
                     />
@@ -1122,7 +1122,7 @@ export default function Products() {
                     <Link href="#" className="showcase-category">casual</Link>
 
                     <h3>
-                      <Link href="#" className="showcase-title">Casual Men's Brown shoes</Link>
+                      <Link href="#" className="showcase-title">Casual Men&apos;s Brown shoes</Link>
                     
                     </h3>
 
@@ -1435,13 +1435,13 @@ export default function Products() {
                   <div className="showcase-banner">
                     <Image
                       src="/images/products/shoe-1.jpg"
-                      alt="Men's Leather Formal Wear shoes"
+                      alt="Men&apos;s Leather Formal Wear shoes"
                       className="product-img default"
                       width="300" height="300"
                     />
                     <Image
                       src="/images/products/shoe-1_1.jpg"
-                      alt="Men's Leather Formal Wear shoes"
+                      alt="Men&apos;s Leather Formal Wear shoes"
                       className="product-img hover"
                       width="300" height="300"
                     />
@@ -1469,7 +1469,7 @@ export default function Products() {
                     <Link href="#" className="showcase-category">formal</Link>
 
                     <h3>
-                      <Link href="#" className="showcase-title">Men's Leather Formal Wear shoes</Link>
+                      <Link href="#" className="showcase-title">Men&apos;s Leather Formal Wear shoes</Link>
                     </h3>
 
                     <div className="showcase-rating">

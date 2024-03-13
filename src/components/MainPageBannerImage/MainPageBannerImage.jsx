@@ -14,21 +14,21 @@ export default function MainPageBannerImage() {
             <div className={styles.sliderItem}>
               <Image
                 src="/images/banner-1.jpg"
-                alt="women's latest fashion sale"
+                alt="women&apos;s latest fashion sale"
                 className={styles.bannerImg}
-                width={1000}
-                height={1000}
+                width={1500}
+                height={1500}
               />
 
               <div className={styles.bannerContent}>
                 <p className={styles.bannerSubtitle}>Trending item</p>
 
                 <h2 className={styles.bannerTitle}>
-                  Women's latest fashion sale
+                  Women&apos;s latest fashion sale
                 </h2>
 
                 <p className={styles.bannerText}>
-                  starting at &dollar; <b>20</b>.00
+                  starting at dollar <b>20</b>.00
                 </p>
 
                 <Link href="#" className={styles.banner_btn}>
@@ -42,8 +42,8 @@ export default function MainPageBannerImage() {
                 src="/images/banner-2.jpg"
                 alt="modern sunglasses"
                 className={styles.bannerImg}
-                width={100}
-                height={100}
+                width={1500}
+                height={1500}
               />
 
               <div className={styles.bannerContent}>
@@ -66,8 +66,8 @@ export default function MainPageBannerImage() {
                 src="/images/banner-3.jpg"
                 alt="new fashion summer sale"
                 className={styles.bannerImg}
-                width={100}
-                height={100}
+                width={1500}
+                height={1500}
               />
 
               <div className={styles.bannerContent}>
