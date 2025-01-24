@@ -12,13 +12,13 @@ export default function MainPageBannerImage() {
         <div className={styles.container}>
           <div className={[styles.sliderContainer, styles.hasScrollbar].join(' ')}>
             <div className={styles.sliderItem}>
-              <Image
+              {/* <Image
                 src="/images/banner-1.jpg"
                 alt="women&apos;s latest fashion sale"
                 className={styles.bannerImg}
                 width={1500}
                 height={1500}
-              />
+              /> */}
 
               <div className={styles.bannerContent}>
                 <p className={styles.bannerSubtitle}>Trending item</p>
@@ -38,13 +38,13 @@ export default function MainPageBannerImage() {
             </div>
 
             <div className={styles.sliderItem}>
-              <Image
+              {/* <Image
                 src="/images/banner-2.jpg"
                 alt="modern sunglasses"
                 className={styles.bannerImg}
                 width={1500}
                 height={1500}
-              />
+              /> */}
 
               <div className={styles.bannerContent}>
                 <p className={styles.bannerSubtitle}>Trending accessories</p>
@@ -62,13 +62,13 @@ export default function MainPageBannerImage() {
             </div>
 
             <div className={styles.sliderItem}>
-              <Image
+              {/* <Image
                 src="/images/banner-3.jpg"
                 alt="new fashion summer sale"
                 className={styles.bannerImg}
                 width={1500}
                 height={1500}
-              />
+              /> */}
 
               <div className={styles.bannerContent}>
                 <p className={styles.bannerSubtitle}>Sale Offer</p>

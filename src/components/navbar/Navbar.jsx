@@ -119,12 +119,9 @@ export default function Navbar() {
 
     <header>
 
-      <div className="header-top">
-
+      {/* <div className="header-top">
         <div className="container">
-
           <ul className="header-social-container">
-
             <li>
               <Link href="#" className="social-link">
                 <ion-icon name="logo-facebook"></ion-icon>
@@ -179,15 +176,15 @@ export default function Navbar() {
 
         </div>
 
-      </div>
+      </div> */}
 
       <div className="header-main">
 
         <div className="container">
 
           <Link href="#" className="header-logo">
-            {/* <Image src="/images/logo/logo.svg" alt="Wolf&apos;s logo" width="120" height="36"/>/ */}
-            <h1 style={{ fontSize: '30px' }}> <b>Wolf</b></h1>
+            {/* <Image src="/images/logo/logo.svg" alt="EcommerceApp&apos;s logo" width="120" height="36"/>/ */}
+            <h1 style={{ fontSize: '30px' }}> <b>EcommerceApp</b></h1>
           </Link>
 
           <div className="header-search-container">
@@ -263,12 +260,12 @@ export default function Navbar() {
                     <Link href="#">Headphone</Link>
                   </li>
 
-                  <li className="panel-list-item">
+                  {/* <li className="panel-list-item">
                     <Link href="#">
                       <Image src="/images/electronics-banner-1.jpg" alt="headphone collection" width="250"
                         height="119"/>
                     </Link>
-                  </li>
+                  </li> */}
 
                 </ul>
 
@@ -298,11 +295,11 @@ export default function Navbar() {
                     <Link href="#">Sunglasses</Link>
                   </li>
 
-                  <li className="panel-list-item">
+                  {/* <li className="panel-list-item">
                     <Link href="#">
                       <Image src="/images/mens-banner.jpg" alt="men&apos;s fashion" width="250" height="119"/>
                     </Link>
-                  </li>
+                  </li> */}
 
                 </ul>
 
@@ -332,11 +329,11 @@ export default function Navbar() {
                     <Link href="#">Bags</Link>
                   </li>
 
-                  <li className="panel-list-item">
+                  {/* <li className="panel-list-item">
                     <Link href="#">
                       <Image src="/images/womens-banner.jpg" alt="women&apos;s fashion" width="250" height="119"/>
                     </Link>
-                  </li>
+                  </li> */}
 
                 </ul>
 
@@ -366,12 +363,12 @@ export default function Navbar() {
                     <Link href="#">Microphone</Link>
                   </li>
 
-                  <li className="panel-list-item">
+                  {/* <li className="panel-list-item">
                     <Link href="#">
                       <Image src="/images/electronics-banner-2.jpg" alt="mouse collection" width="250"
                         height="119"/>
                     </Link>
-                  </li>
+                  </li> */}
 
                 </ul>
 
@@ -674,7 +671,7 @@ export default function Navbar() {
 
         </ul>
 
-        <div className="menu-bottom">
+        {/* <div className="menu-bottom">
 
           <ul className="menu-category-list">
 
@@ -751,7 +748,7 @@ export default function Navbar() {
 
           </ul>
 
-        </div>
+        </div> */}
 
       </nav>
 

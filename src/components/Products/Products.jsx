@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link'
 // import styles from './Category.module.css';
 
-import ProductCategorySidebar from '../ProductCategorySidebar/ProductCategorySidebar';
+import ProductCategorySidebar from '../ProductCategorySidebar/ProductCategory';
 
 export default function Products() {
   return (
@@ -731,7 +731,7 @@ export default function Products() {
                           <p>available: <b>40</b></p>
                         </div>
 
-                        <div className="showcase-status-bar"></div>
+                        {/* <div className="showcase-status-bar"></div> */}
                       </div>
 
                       <div className="countdown-box">
@@ -866,7 +866,7 @@ export default function Products() {
 
                     <p className="showcase-badge">15%</p>
 
-                    <div className="showcase-actions">
+                    {/* <div className="showcase-actions">
                       <button className="btn-action">
                         <ion-icon name="heart-outline"></ion-icon>
                       </button>
@@ -882,7 +882,7 @@ export default function Products() {
                       <button className="btn-action">
                         <ion-icon name="bag-add-outline"></ion-icon>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="showcase-content">
@@ -926,7 +926,7 @@ export default function Products() {
 
                     <p className="showcase-badge angle black">sale</p>
 
-                    <div className="showcase-actions">
+                    {/* <div className="showcase-actions">
                       <button className="btn-action">
                         <ion-icon name="heart-outline"></ion-icon>
                       </button>
@@ -942,7 +942,7 @@ export default function Products() {
                       <button className="btn-action">
                         <ion-icon name="bag-add-outline"></ion-icon>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="showcase-content">
@@ -983,7 +983,7 @@ export default function Products() {
                       width="300" height="300"
                     />
 
-                    <div className="showcase-actions">
+                    {/* <div className="showcase-actions">
                       <button className="btn-action">
                         <ion-icon name="heart-outline"></ion-icon>
                       </button>
@@ -999,7 +999,7 @@ export default function Products() {
                       <button className="btn-action">
                         <ion-icon name="bag-add-outline"></ion-icon>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="showcase-content">
@@ -1042,7 +1042,7 @@ export default function Products() {
 
                     <p className="showcase-badge angle pink">new</p>
 
-                    <div className="showcase-actions">
+                    {/* <div className="showcase-actions">
                       <button className="btn-action">
                         <ion-icon name="heart-outline"></ion-icon>
                       </button>
@@ -1058,7 +1058,7 @@ export default function Products() {
                       <button className="btn-action">
                         <ion-icon name="bag-add-outline"></ion-icon>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="showcase-content">
@@ -1099,7 +1099,7 @@ export default function Products() {
                       width="300" height="300"
                     />
 
-                    <div className="showcase-actions">
+                    {/* <div className="showcase-actions">
                       <button className="btn-action">
                         <ion-icon name="heart-outline"></ion-icon>
                       </button>
@@ -1115,7 +1115,7 @@ export default function Products() {
                       <button className="btn-action">
                         <ion-icon name="bag-add-outline"></ion-icon>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="showcase-content">
@@ -1158,7 +1158,7 @@ export default function Products() {
 
                     <p className="showcase-badge angle black">sale</p>
 
-                    <div className="showcase-actions">
+                    {/* <div className="showcase-actions">
                       <button className="btn-action">
                         <ion-icon name="heart-outline"></ion-icon>
                       </button>
@@ -1174,7 +1174,7 @@ export default function Products() {
                       <button className="btn-action">
                         <ion-icon name="bag-add-outline"></ion-icon>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="showcase-content">
@@ -1215,7 +1215,7 @@ export default function Products() {
                       width="300" height="300"
                     />
 
-                    <div className="showcase-actions">
+                    {/* <div className="showcase-actions">
                       <button className="btn-action">
                         <ion-icon name="heart-outline"></ion-icon>
                       </button>
@@ -1231,7 +1231,7 @@ export default function Products() {
                       <button className="btn-action">
                         <ion-icon name="bag-add-outline"></ion-icon>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="showcase-content">
@@ -1274,7 +1274,7 @@ export default function Products() {
 
                     <p className="showcase-badge angle black">sale</p>
 
-                    <div className="showcase-actions">
+                    {/* <div className="showcase-actions">
                       <button className="btn-action">
                         <ion-icon name="heart-outline"></ion-icon>
                       </button>
@@ -1290,7 +1290,7 @@ export default function Products() {
                       <button className="btn-action">
                         <ion-icon name="bag-add-outline"></ion-icon>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="showcase-content">
@@ -1331,7 +1331,7 @@ export default function Products() {
                       width="300" height="300"
                     />
 
-                    <div className="showcase-actions">
+                    {/* <div className="showcase-actions">
                       <button className="btn-action">
                         <ion-icon name="heart-outline"></ion-icon>
                       </button>
@@ -1347,7 +1347,7 @@ export default function Products() {
                       <button className="btn-action">
                         <ion-icon name="bag-add-outline"></ion-icon>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="showcase-content">
@@ -1390,7 +1390,7 @@ export default function Products() {
 
                     <p className="showcase-badge angle black">sale</p>
 
-                    <div className="showcase-actions">
+                    {/* <div className="showcase-actions">
                       <button className="btn-action">
                         <ion-icon name="heart-outline"></ion-icon>
                       </button>
@@ -1406,7 +1406,7 @@ export default function Products() {
                       <button className="btn-action">
                         <ion-icon name="bag-add-outline"></ion-icon>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="showcase-content">
@@ -1446,7 +1446,7 @@ export default function Products() {
                       width="300" height="300"
                     />
 
-                    <div className="showcase-actions">
+                    {/* <div className="showcase-actions">
                       <button className="btn-action">
                         <ion-icon name="heart-outline"></ion-icon>
                       </button>
@@ -1462,7 +1462,7 @@ export default function Products() {
                       <button className="btn-action">
                         <ion-icon name="bag-add-outline"></ion-icon>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="showcase-content">
@@ -1504,7 +1504,7 @@ export default function Products() {
 
                     <p className="showcase-badge angle black">sale</p>
 
-                    <div className="showcase-actions">
+                    {/* <div className="showcase-actions">
                       <button className="btn-action">
                         <ion-icon name="heart-outline"></ion-icon>
                       </button>
@@ -1520,7 +1520,7 @@ export default function Products() {
                       <button className="btn-action">
                         <ion-icon name="bag-add-outline"></ion-icon>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="showcase-content">

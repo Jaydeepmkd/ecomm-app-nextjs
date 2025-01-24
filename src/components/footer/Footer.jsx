@@ -232,7 +232,7 @@ export default function Footer() {
                 <ion-icon name="mail-outline"></ion-icon>
               </div>
 
-              <Link href="mailto:jdmkd49@gmail.com" className="footer-nav-link">jdmkd49@gmail.com</Link>
+              <Link href="mailto:djkumarr9@gmail.com" className="footer-nav-link">djkumarr9@gmail.com</Link>
             </li>
 
           </ul>
@@ -283,10 +283,10 @@ export default function Footer() {
 
         <div className="container">
 
-          <Image src="/images/payment.png" alt="payment method" className="payment-img"  width={300} height={100}/>
+          {/* <Image src="/images/payment.png" alt="payment method" className="payment-img"  width={300} height={100}/> */}
 
           <p className="copyright">
-            Copyright &copy; <Link href="#">Wolf</Link> all rights reserved.
+            Copyright &copy; <Link href="#">EcommerceApp</Link> all rights reserved.
           </p>
 
         </div>

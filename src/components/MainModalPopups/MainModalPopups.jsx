@@ -31,7 +31,7 @@ export default function MainModalPopups() {
                   <div className={styles.newsletterHeader}>
                     <h3 className={styles.newsletterTitle}>Subscribe Newsletter.</h3>
                     <p className={styles.newsletterDesc}>
-                      Subscribe to <b>Wolf</b> to get the latest product and discount updates.
+                      Subscribe to <b>EcommerceApp</b> to get the latest product and discount updates.
                     </p>
                   </div>
                   <input type="email" name="email" className={styles.emailField} placeholder="Email Address" required />
